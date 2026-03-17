@@ -1,0 +1,27 @@
+{
+  "name": "petstore-api-testing",
+  "version": "1.0.0",
+  "description": "API Testing Suite for Swagger Petstore API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:verbose": "jest --verbose",
+    "test:report": "jest --coverage --coverageReporters=html"
+  },
+  "keywords": [
+    "api-testing",
+    "jest",
+    "petstore",
+    "automation-testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
