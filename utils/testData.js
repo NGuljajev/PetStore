@@ -1,6 +1,4 @@
-/**
- * Test data for API testing
- */
+
 
 const petCreatePayload = {
   id: 999001,
@@ -48,7 +46,6 @@ const orderCreatePayload = {
 };
 
 const invalidPetPayload = {
-  // Missing required fields like name, photoUrls
   id: 999002,
   category: {}
 };

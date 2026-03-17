@@ -6,6 +6,7 @@ module.exports = {
     '!tests/**/*.test.js'
   ],
   coveragePathIgnorePatterns: ['/node_modules/'],
+  coverageReporters: ['text-summary', 'text'],
   testTimeout: 10000,
   verbose: true,
   forceExit: true,
