@@ -2,11 +2,10 @@ module.exports = {
   testEnvironment: 'node',
   testMatch: ['**/tests/**/*.test.js'],
   collectCoverageFrom: [
-    'tests/**/*.js',
-    '!tests/**/*.test.js'
+    'utils/**/*.js'
   ],
   coveragePathIgnorePatterns: ['/node_modules/'],
-  coverageReporters: ['text-summary', 'text'],
+  coverageReporters: ['text-summary', 'text', 'html'],
   testTimeout: 10000,
   verbose: true,
   forceExit: true,
